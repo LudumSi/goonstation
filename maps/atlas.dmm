@@ -7974,7 +7974,7 @@
 	dir = 4
 	},
 /obj/disposalpipe/segment/mail/horizontal,
-/turf/simulated/floor/grass/leafy,
+/turf/simulated/floor/plating/random,
 /area/station/ranch)
 "aAB" = (
 /obj/machinery/light{
@@ -8561,14 +8561,9 @@
 	},
 /turf/simulated/floor/blue,
 /area/station/medical/medbay)
-"aCC" = (
-/obj/mapping_helper/wingrille_spawn/auto/reinforced,
-/turf/simulated/floor/plating/random,
-/area/station/ranch)
 "aCD" = (
 /obj/disposalpipe/segment,
-/obj/mapping_helper/wingrille_spawn/auto/reinforced,
-/turf/simulated/floor/plating/random,
+/turf/simulated/wall/auto/supernorn,
 /area/station/ranch)
 "aCE" = (
 /obj/decal/mule/dropoff,
@@ -8651,9 +8646,7 @@
 /obj/machinery/camera/ranch,
 /obj/machinery/light_switch/north,
 /obj/disposalpipe/segment/mail/horizontal,
-/turf/simulated/floor/grasstodirt{
-	dir = 4
-	},
+/turf/simulated/floor/plating/random,
 /area/station/ranch)
 "aCS" = (
 /obj/machinery/door_control{
@@ -8773,24 +8766,6 @@
 	dir = 1
 	},
 /area/station/science/chemistry)
-"aDh" = (
-/obj/table/reinforced/auto,
-/obj/machinery/door/airlock/pyro/glass/windoor{
-	autoclose = 0;
-	dir = 8
-	},
-/obj/machinery/cashreg,
-/obj/machinery/light{
-	layer = 3
-	},
-/obj/railing/orange/reinforced{
-	dir = 4
-	},
-/obj/mapping_helper/firedoor_spawn,
-/obj/mapping_helper/access/rancher,
-/obj/disposalpipe/segment/mail/horizontal,
-/turf/simulated/floor/grass/leafy,
-/area/station/ranch)
 "aDi" = (
 /turf/simulated/floor/grass/leafy,
 /area/station/ranch)
@@ -9102,19 +9077,8 @@
 /turf/simulated/floor/grass/leafy,
 /area/station/ranch)
 "aDY" = (
-/obj/table/reinforced/auto,
-/obj/railing/orange/reinforced{
-	dir = 8
-	},
-/obj/machinery/door/airlock/pyro/glass/windoor{
-	dir = 4
-	},
-/obj/mapping_helper/firedoor_spawn,
-/obj/mapping_helper/access/rancher,
 /obj/disposalpipe/segment/mail/horizontal,
-/turf/simulated/floor/bluewhite{
-	dir = 8
-	},
+/turf/simulated/wall/auto/supernorn,
 /area/station/ranch)
 "aDZ" = (
 /obj/machinery/light{
@@ -9381,7 +9345,8 @@
 /obj/railing/orange/reinforced{
 	dir = 8
 	},
-/turf/simulated/floor/dirt,
+/obj/burning_barrel,
+/turf/simulated/floor/plating/random,
 /area/station/ranch)
 "aEM" = (
 /obj/cable{
@@ -9567,16 +9532,10 @@
 	},
 /area/station/hangar/main)
 "aFr" = (
-/obj/submachine/ranch_feed_grinder,
 /obj/railing/orange/reinforced{
 	dir = 8
 	},
-/obj/item/reagent_containers/food/snacks/plant/corn{
-	doants = 0
-	},
-/turf/simulated/floor/grasstodirt{
-	dir = 8
-	},
+/turf/simulated/floor/plating/random,
 /area/station/ranch)
 "aFs" = (
 /obj/machinery/plantpot,
@@ -9585,36 +9544,26 @@
 	},
 /obj/railing/orange/reinforced,
 /obj/disposalpipe/segment/mail/horizontal,
-/turf/simulated/floor/grass/leafy,
+/turf/simulated/floor/plating/random,
 /area/station/ranch)
 "aFt" = (
 /obj/railing/orange/reinforced{
 	dir = 4
 	},
 /obj/table/reinforced/auto,
-/obj/item/reagent_containers/food/snacks/ranch_feed_bag{
-	rand_pos = 1
-	},
-/obj/item/reagent_containers/food/snacks/ranch_feed_bag{
-	rand_pos = 1
-	},
-/obj/item/reagent_containers/food/snacks/ranch_feed_bag{
-	rand_pos = 1
-	},
-/turf/simulated/floor/grasstodirt{
-	dir = 4
-	},
+/obj/random_item_spawner/hat/one,
+/turf/simulated/floor/plating/random,
 /area/station/ranch)
 "aFv" = (
 /obj/machinery/door/airlock/pyro/alt{
 	dir = 4;
 	tag = "icon-generic2_closed (EAST)"
 	},
-/obj/mapping_helper/access/rancher,
 /obj/mapping_helper/firedoor_spawn,
 /obj/railing/orange/reinforced{
 	dir = 8
 	},
+/obj/mapping_helper/access/maint,
 /turf/simulated/floor/plating/random,
 /area/station/maintenance/east)
 "aFw" = (
@@ -10054,11 +10003,10 @@
 /turf/simulated/floor/white,
 /area/station/medical/medbay)
 "aGU" = (
-/obj/mapping_helper/wingrille_spawn/auto/reinforced,
 /obj/cable{
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/plating/random,
+/turf/simulated/wall/auto/supernorn,
 /area/station/ranch)
 "aGV" = (
 /turf/simulated/wall/auto/supernorn,
@@ -10083,7 +10031,6 @@
 /turf/simulated/floor,
 /area/station/medical/robotics)
 "aGZ" = (
-/obj/chicken_nesting_box,
 /obj/machinery/light{
 	layer = 3
 	},
@@ -10469,7 +10416,7 @@
 /area/station/science/storage)
 "aId" = (
 /obj/landmark/gps_waypoint,
-/turf/simulated/floor/dirt,
+/turf/simulated/floor/plating/random,
 /area/station/ranch)
 "aIg" = (
 /obj/cable{
@@ -10743,7 +10690,7 @@
 /turf/simulated/floor/plating,
 /area/station/mining/refinery)
 "aJs" = (
-/turf/simulated/floor/dirt,
+/turf/simulated/floor/plating/random,
 /area/station/ranch)
 "aJt" = (
 /obj/cable{
@@ -12375,13 +12322,6 @@
 	},
 /turf/simulated/floor/plating,
 /area/station/maintenance/east)
-"aPc" = (
-/obj/submachine/chicken_incubator,
-/obj/item/reagent_containers/food/snacks/ingredient/egg{
-	rand_pos = 0
-	},
-/turf/simulated/floor/grass/leafy,
-/area/station/ranch)
 "aPd" = (
 /obj/table/auto,
 /obj/machinery/phone,
@@ -12670,7 +12610,7 @@
 /obj/railing/orange/reinforced{
 	dir = 4
 	},
-/turf/simulated/floor/dirt,
+/turf/simulated/floor/plating/random,
 /area/station/ranch)
 "aQc" = (
 /obj/machinery/networked/storage/bomb_tester{
@@ -13550,9 +13490,7 @@
 /turf/simulated/floor,
 /area/station/storage/eva)
 "aSN" = (
-/obj/shrub{
-	dir = 8
-	},
+/obj/random_item_spawner/critter,
 /turf/simulated/floor/grass/leafy,
 /area/station/ranch)
 "aSP" = (
@@ -13934,9 +13872,8 @@
 /turf/simulated/floor/black,
 /area/station/crew_quarters/heads)
 "aTX" = (
-/obj/landmark/start/job/rancher,
 /obj/disposalpipe/segment/mail/horizontal,
-/turf/simulated/floor/dirt,
+/turf/simulated/floor/plating/random,
 /area/station/ranch)
 "aTY" = (
 /obj/mapping_helper/firedoor_spawn,
@@ -15059,7 +14996,7 @@
 /obj/railing/orange/reinforced{
 	dir = 4
 	},
-/turf/simulated/floor/dirt,
+/turf/simulated/floor/plating/random,
 /area/station/ranch)
 "aXq" = (
 /obj/disposalpipe/segment,
@@ -15279,9 +15216,8 @@
 /turf/simulated/floor/purplewhite,
 /area/station/science/lab)
 "aYl" = (
-/obj/mapping_helper/wingrille_spawn/auto/reinforced,
 /obj/disposalpipe/segment/ejection,
-/turf/simulated/floor/plating/random,
+/turf/simulated/wall/auto/supernorn,
 /area/station/ranch)
 "aYm" = (
 /obj/machinery/disposal/small{
@@ -17939,15 +17875,6 @@
 	},
 /turf/simulated/floor,
 /area/station/mining/refinery)
-"nhc" = (
-/obj/shrub{
-	dir = 1
-	},
-/obj/item/reagent_containers/food/snacks/ingredient/egg/critter/sheep{
-	secret_thing = 1
-	},
-/turf/simulated/floor/grass/leafy,
-/area/station/ranch)
 "niB" = (
 /obj/table/round/auto,
 /obj/machinery/computer/tour_console,
@@ -17971,9 +17898,12 @@
 /turf/simulated/floor/plating/random,
 /area/station/maintenance/west)
 "nlP" = (
-/turf/simulated/floor/green/side{
-	dir = 1
-	},
+/obj/mapping_helper/firedoor_spawn,
+/obj/mapping_helper/access/maint,
+/obj/mapping_helper/airlock/welder,
+/obj/decal/poster/wallsign/warning3,
+/obj/machinery/door/airlock/pyro/classic,
+/turf/simulated/floor,
 /area/station/ranch)
 "nnI" = (
 /obj/table/auto,
@@ -18319,8 +18249,9 @@
 /obj/railing/orange/reinforced{
 	dir = 8
 	},
-/obj/storage/secure/closet/civilian/ranch,
-/turf/simulated/floor/dirt,
+/obj/storage/closet/wrestling,
+/obj/random_item_spawner/junk/few,
+/turf/simulated/floor/plating/random,
 /area/station/ranch)
 "pbm" = (
 /obj/cable{
@@ -18378,7 +18309,7 @@
 /area/station/science/lab)
 "pkT" = (
 /obj/submachine/fishing_upload_terminal/portable,
-/turf/simulated/floor,
+/turf/simulated/floor/plating/random,
 /area/station/ranch)
 "plm" = (
 /obj/cable{
@@ -18518,7 +18449,6 @@
 /obj/cable{
 	icon_state = "4-8"
 	},
-/mob/living/critter/small_animal/ranch_base/sheep/white/dolly/ai_controlled,
 /turf/simulated/floor/grass/leafy,
 /area/station/ranch)
 "qgH" = (
@@ -18700,7 +18630,7 @@
 /obj/machinery/light{
 	layer = 3
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/plating/random,
 /area/station/ranch)
 "qLQ" = (
 /obj/decal/mule/dropoff,
@@ -19021,9 +18951,7 @@
 "sWU" = (
 /obj/machinery/firealarm/north,
 /obj/disposalpipe/segment/mail/horizontal,
-/turf/simulated/floor/grasstodirt{
-	dir = 8
-	},
+/turf/simulated/floor/plating/random,
 /area/station/ranch)
 "tap" = (
 /obj/cable/orange{
@@ -19452,9 +19380,9 @@
 /obj/machinery/door/airlock/pyro/glass{
 	name = "Ranch"
 	},
-/obj/mapping_helper/access/rancher,
 /obj/mapping_helper/firedoor_spawn,
-/turf/simulated/floor,
+/obj/mapping_helper/access/maint,
+/turf/simulated/floor/plating/random,
 /area/station/ranch)
 "uQT" = (
 /obj/machinery/firealarm/north,
@@ -19960,7 +19888,7 @@
 /area/station/medical/medbay/cloner)
 "xYT" = (
 /obj/submachine/weapon_vendor/fishing/portable,
-/turf/simulated/floor,
+/turf/simulated/floor/plating/random,
 /area/station/ranch)
 "yaQ" = (
 /obj/cable{
@@ -64861,7 +64789,7 @@ aAE
 aBr
 aCM
 azM
-aDh
+aDY
 aDU
 aZX
 aJU
@@ -65464,7 +65392,7 @@ azN
 aZT
 aBr
 aWh
-aCC
+aRn
 oVw
 aDi
 aEK
@@ -65766,11 +65694,11 @@ azO
 aAF
 aBo
 agH
-aCC
+aRn
 aFs
 aDi
-nhc
-aPc
+aDi
+aDi
 aGk
 uzo
 aGk
@@ -66074,7 +66002,7 @@ aEL
 paq
 aFr
 aGk
-nlP
+aJs
 pkT
 aAC
 aIz
@@ -66370,13 +66298,13 @@ aSa
 azR
 aBo
 aPq
-uPd
+nlP
 aTX
 aId
 aJs
 aJs
 uPd
-nlP
+aJs
 qHR
 aAC
 aIz
@@ -66678,7 +66606,7 @@ aXm
 aQb
 aFt
 aGk
-nlP
+aJs
 xYT
 aAC
 aIz
@@ -66978,7 +66906,7 @@ aGU
 aAw
 aRD
 aSN
-aPc
+aDi
 aGk
 uzo
 aGk

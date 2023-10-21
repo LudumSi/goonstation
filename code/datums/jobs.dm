@@ -902,6 +902,7 @@ ABSTRACT_TYPE(/datum/job/civilian)
 		src.access = get_access("Botanist")
 		return
 
+/*
 /datum/job/civilian/rancher
 	name = "Rancher"
 	limit = 1
@@ -920,6 +921,7 @@ ABSTRACT_TYPE(/datum/job/civilian)
 		..()
 		src.access = get_access("Rancher")
 		return
+*/
 
 /datum/job/civilian/janitor
 	name = "Janitor"
